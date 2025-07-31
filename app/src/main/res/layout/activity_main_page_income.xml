@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageIncome"
+    android:background="#F8F8F8">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Income"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="48dp" />
+
+    <!-- Enter Income Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/EnterIncome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginHorizontal="24dp"
+        android:backgroundTint="#D2E0C1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:layout_constraintTop_toBottomOf="@id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter your income"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Add entries by date and category"
+                android:textSize="14sp"
+                android:textColor="#555555" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- View Income Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ViewIncome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="24dp"
+        android:backgroundTint="#D2E0C1"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:layout_constraintTop_toBottomOf="@id/EnterIncome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View your income"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Track income by day, week, month"
+                android:textSize="14sp"
+                android:textColor="#555555" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--For back button!-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="60dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_button"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

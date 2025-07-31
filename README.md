@@ -19,14 +19,22 @@ An Android application to track your daily expenses and incomes with a clean UI 
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/ryuma04/expense_tracker.git
-cd expense_tracker
+<pre>git clone https://github.com/ryuma04/expense_tracker.git
+<pre>
+```
+### 2. Open Android Studio
 
+### 3. Select "Open an Existing Project"
 
-Open in Android Studio
-Open Android Studio
+### 4. Navigate to the expense_tracker directory
 
-Select "Open an Existing Project"
+🛠 Tech Stack
+Language: Java
 
-Navigate to the expense_tracker directory
+UI: XML
 
+Database: SQLite
+
+Build: Gradle
+
+📷 Screenshots

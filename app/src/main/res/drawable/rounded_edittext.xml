@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#FFFFFF" />
+
+    <stroke
+        android:width="1dp"
+        android:color="#CCCCCC" />
+
+    <corners android:radius="12dp" />
+</shape>
+    <!--Use the code from this file, for creating appealing edittext in the next project!-->
+    <!--Create the file with the following steps res>drawable>drawable resource file!-->

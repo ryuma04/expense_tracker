@@ -63,6 +63,10 @@ Same for expense feature
 
 Note: The generate report feature of the apllication is currently developing
 
+## 🧑‍💻 Contribution
+Contributions are welcome!
+Feel free to open issues for bugs or suggestions!
+
 
 
 
